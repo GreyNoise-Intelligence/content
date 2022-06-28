@@ -1577,18 +1577,18 @@ cli = ["click (>=5.0)"]
 
 [[package]]
 name = "python-gitlab"
-version = "2.10.1"
+version = "3.6.0"
 description = "Interact with GitLab API"
 category = "main"
 optional = false
-python-versions = ">=3.6.0"
+python-versions = ">=3.7.0"
 
 [package.dependencies]
 requests = ">=2.25.0"
 requests-toolbelt = ">=0.9.1"
 
 [package.extras]
-autocompletion = ["argcomplete (>=1.10.0,<2)"]
+autocompletion = ["argcomplete (>=1.10.0,<3)"]
 yaml = ["PyYaml (>=5.2)"]
 
 [[package]]
@@ -2204,7 +2204,7 @@ build = ["google-cloud-bigquery"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8,<3.11"
-content-hash = "8d8c3bd6a00a1ab1088f54da4872ae675be7c1db7350af522b39fef1be2caf91"
+content-hash = "7920ac3e77066e56e6ce6037df721bd7995f63411abdc0d1f2d1ed11e728bc3a"
 
 [metadata.files]
 aiohttp = [
@@ -3328,8 +3328,8 @@ python-dotenv = [
     {file = "python_dotenv-0.20.0-py3-none-any.whl", hash = "sha256:d92a187be61fe482e4fd675b6d52200e7be63a12b724abbf931a40ce4fa92938"},
 ]
 python-gitlab = [
-    {file = "python-gitlab-2.10.1.tar.gz", hash = "sha256:7afa7d7c062fa62c173190452265a30feefb844428efc58ea5244f3b9fc0d40f"},
-    {file = "python_gitlab-2.10.1-py3-none-any.whl", hash = "sha256:581a219759515513ea9399e936ed7137437cfb681f52d2641626685c492c999d"},
+    {file = "python-gitlab-3.6.0.tar.gz", hash = "sha256:901c54ff926f10479cb591a34d65f0a3022f2bcc41074f9a192c7fa7e4c57061"},
+    {file = "python_gitlab-3.6.0-py3-none-any.whl", hash = "sha256:b855c15e106812a4ada7c4d417def61bc211976bbf2ee1c7e0cd48a83eca4e9f"},
 ]
 python-http-client = [
     {file = "python_http_client-3.3.7-py3-none-any.whl", hash = "sha256:ad371d2bbedc6ea15c26179c6222a78bc9308d272435ddf1d5c84f068f249a36"},
